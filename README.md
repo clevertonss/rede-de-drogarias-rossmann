@@ -333,7 +333,7 @@ num_attributes.hist( bins=25 );
 ```
 
 
-[alt text](https://github.com/clevertonss/rede-de-drogarias-rossmann/blob/main/img/output_20_0.png)
+![alt text](https://github.com/clevertonss/rede-de-drogarias-rossmann/blob/main/img/output_20_0.png)
 
     
 
