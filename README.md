@@ -275,7 +275,7 @@ m
 
 
 ```python
-Image( 'img/MindMapHypothesis.png' )
+Image( '/img/MindMapHypothesis.png' )
 ```
 
 
@@ -283,7 +283,7 @@ Image( 'img/MindMapHypothesis.png' )
 
 
 
-Image( 'img/output_13_0.png' )
+Image( '/img/output_13_0.png' )
 
     
 
