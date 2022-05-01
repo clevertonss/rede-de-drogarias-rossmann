@@ -281,8 +281,10 @@ Image( 'img/MindMapHypothesis.png' )
 
 
 
-    
-![png](output_13_0.png)
+
+
+Image( 'img/output_13_0.png' )
+
     
 
 
@@ -331,8 +333,8 @@ sns.distplot( df4['sales'], kde=False  )
 
 
 
-    
-![png](output_18_1.png)
+
+Image( 'img/output_18_1.png' )
     
 
 
@@ -344,8 +346,8 @@ num_attributes.hist( bins=25 );
 ```
 
 
-    
-![png](output_20_0.png)
+
+Image( 'img/output_20_0.png' )
     
 
 
@@ -391,8 +393,8 @@ sns.kdeplot( df4[df4['assortment'] == 'extra']['sales'], label='extra', shade=Tr
 
 
 
-    
-![png](output_22_1.png)
+
+Image( 'img/output_22_1.png' )
     
 
 
@@ -421,20 +423,18 @@ aux3.pivot( index='year_week', columns='assortment', values='sales' ).plot()
 
 
 
-    
-![png](output_25_1.png)
-    
 
-
-
-    
-![png](output_25_2.png)
+Image( 'img/output_25_1.png' )
     
 
 
 
+Image( 'img/output_25_2.png' )    
     
-![png](output_25_3.png)
+
+
+
+Image( 'img/output_25_3.png' )    
     
 
 
@@ -462,8 +462,7 @@ x.set_ylim( bottom+0.5, top-0.5 );
 ```
 
 
-    
-![png](output_27_0.png)
+Image( 'img/output_27_0.png' )    
     
 
 
@@ -484,8 +483,9 @@ sns.barplot( x='year', y='sales', hue='state_holiday', data=aux2 );
 ```
 
 
-    
-![png](output_29_0.png)
+
+Image( 'img/output_29_0.png' )    
+
     
 
 
@@ -513,8 +513,8 @@ sns.barplot( x='before_after', y='sales', data=aux2 );
 ```
 
 
-    
-![png](output_31_0.png)
+
+Image( 'img/output_31_0.png' )
     
 
 
@@ -566,8 +566,8 @@ sns.heatmap( correlation, annot=True );
 ```
 
 
-    
-![png](output_36_0.png)
+
+Image( 'img/output_36_0.png' )
     
 
 
@@ -608,8 +608,7 @@ sns.heatmap( d, annot=True )
 
 
 
-    
-![png](output_38_1.png)
+Image( 'img/output_38_1.png' )    
     
 
 
