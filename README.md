@@ -277,7 +277,7 @@ m
 ```python
 Image( 'img/output_13_0.png' )
 ```
-    
+ <img src=”img/output_13_0.png">   
 
 
 
