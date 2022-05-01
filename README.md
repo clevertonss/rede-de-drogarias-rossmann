@@ -274,12 +274,7 @@ m
 # Mapa Mental de Hipoteses
 
 
-```python
-Image( 'img/output_13_0.png' )
-```
- <img src=”img/output_13_0.png">   
-
-
+![alt text](https://github.com/clevertonss/rede-de-drogarias-rossmann/blob/main/img/output_13_0.png)
 
 # Hipoteses Da Análise Exploratória
 
@@ -326,7 +321,7 @@ sns.distplot( df4['sales'], kde=False  )
 
 
 
-Image( 'img/output_18_1.png' )
+![alt text](https://github.com/clevertonss/rede-de-drogarias-rossmann/blob/main/img/output_18_1.png)
     
 
 
@@ -338,8 +333,8 @@ num_attributes.hist( bins=25 );
 ```
 
 
+[alt text](https://github.com/clevertonss/rede-de-drogarias-rossmann/blob/main/img/output_20_0.png)
 
-Image( 'img/output_20_0.png' )
     
 
 
@@ -385,8 +380,7 @@ sns.kdeplot( df4[df4['assortment'] == 'extra']['sales'], label='extra', shade=Tr
 
 
 
-
-Image( 'img/output_22_1.png' )
+![alt text](https://github.com/clevertonss/rede-de-drogarias-rossmann/blob/main/img/output_22_1.png)
     
 
 
@@ -415,18 +409,20 @@ aux3.pivot( index='year_week', columns='assortment', values='sales' ).plot()
 
 
 
-
-Image( 'img/output_25_1.png' )
+![alt text](https://github.com/clevertonss/rede-de-drogarias-rossmann/blob/main/img/output_25_1.png)
     
 
 
 
-Image( 'img/output_25_2.png' )    
+
+![alt text](https://github.com/clevertonss/rede-de-drogarias-rossmann/blob/main/img/output_25_2.png)
+  
     
 
 
 
-Image( 'img/output_25_3.png' )    
+![alt text](https://github.com/clevertonss/rede-de-drogarias-rossmann/blob/main/img/output_25_3.png)
+
     
 
 
@@ -454,7 +450,8 @@ x.set_ylim( bottom+0.5, top-0.5 );
 ```
 
 
-Image( 'img/output_27_0.png' )    
+![alt text](https://github.com/clevertonss/rede-de-drogarias-rossmann/blob/main/img/output_27_0.png)
+
     
 
 
@@ -476,7 +473,7 @@ sns.barplot( x='year', y='sales', hue='state_holiday', data=aux2 );
 
 
 
-Image( 'img/output_29_0.png' )    
+![alt text](https://github.com/clevertonss/rede-de-drogarias-rossmann/blob/main/img/output_29_0.png)
 
     
 
@@ -506,7 +503,7 @@ sns.barplot( x='before_after', y='sales', data=aux2 );
 
 
 
-Image( 'img/output_31_0.png' )
+![alt text](https://github.com/clevertonss/rede-de-drogarias-rossmann/blob/main/img/output_31_0.png)
     
 
 
@@ -559,7 +556,7 @@ sns.heatmap( correlation, annot=True );
 
 
 
-Image( 'img/output_36_0.png' )
+![alt text](https://github.com/clevertonss/rede-de-drogarias-rossmann/blob/main/img/output_36_0.png)
     
 
 
@@ -600,7 +597,8 @@ sns.heatmap( d, annot=True )
 
 
 
-Image( 'img/output_38_1.png' )    
+![alt text](https://github.com/clevertonss/rede-de-drogarias-rossmann/blob/main/img/output_38_1.png)
+  
     
 
 
@@ -781,8 +779,7 @@ sns.scatterplot( x='store', y='MAPE', data=df92 )
 
 
 
-    
-![png](output_45_1.png)
+![alt text](https://github.com/clevertonss/rede-de-drogarias-rossmann/blob/main/img/output_45_1.png)    
     
 
 
@@ -869,8 +866,7 @@ sns.scatterplot( df9['predictions'], df9['error'] )
 
 
 
-    
-![png](output_49_1.png)
+![alt text](https://github.com/clevertonss/rede-de-drogarias-rossmann/blob/main/img/output_49_1.png)    
     
 
 
