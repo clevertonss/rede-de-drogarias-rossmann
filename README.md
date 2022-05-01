@@ -275,7 +275,7 @@ m
 
 
 ```python
-Image( '/img/output_13_0.png' )
+Image( 'img/output_13_0.png' )
 ```
     
 
